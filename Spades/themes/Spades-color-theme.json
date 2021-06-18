@@ -534,10 +534,11 @@
         "support.type.vendored.property-name",
         "support.constant.vendored.property-value",
         "support.type.property-name",
-        "meta.property-list entity.name.tag"
+        "meta.property-list entity.name.tag",
+        "variable.css"
       ],
       "settings": {
-        "foreground": "#80CBC4"
+        "foreground": "#C4C4C4"
       }
     },
     {
@@ -551,21 +552,21 @@
       "name": "Constant Other Color RGB Value Punctuation Definition Constant",
       "scope": "constant.other.color.rgb-value punctuation.definition.constant",
       "settings": {
-        "foreground": "#F78C6C"
+        "foreground": "#B1B1B1"
       }
     },
     {
       "name": "Constant Other Color",
       "scope": "constant.other.color",
       "settings": {
-        "foreground": "#FFEB95"
+        "foreground": "#FAFAFA"
       }
     },
     {
       "name": "Keyword Other Unit",
       "scope": "keyword.other.unit",
       "settings": {
-        "foreground": "#FFEB95"
+        "foreground": "#C4C4C4"
       }
     },
     {
@@ -672,9 +673,9 @@
     },
     {
       "name": "Support Function",
-      "scope": "support.function",
+      "scope": ["support.function", "support.constant.media"],
       "settings": {
-        "foreground": "#89DDFF"
+        "foreground": "#C792EA"
       }
     },
     {
@@ -860,10 +861,13 @@
       "scope": [
         "entity.name.tag.css",
         "entity.name.tag.less",
-        "entity.name.tag.custom.css"
+        "entity.name.tag.custom.css",
+        "keyword.control.at-rule.font-face.css",
+        "entity.other.attribute-name.pseudo-class.css",
+        "entity.other.attribute-name.class.css"
       ],
       "settings": {
-        "foreground": "#ff5572"
+        "foreground": "#E389FF"
       }
     },
     {
@@ -875,7 +879,7 @@
         "entity.name.tag.wildcard.sass"
       ],
       "settings": {
-        "foreground": "#ff5572"
+        "foreground": "#E389FF"
       }
     },
     {
@@ -1559,16 +1563,20 @@
       "scope": [
         "meta.tag.js meta.embedded.expression.js punctuation.section.embedded.begin.js",
         "meta.tag.js meta.embedded.expression.js punctuation.section.embedded.end.js",
-        "meta.property-list.css meta.property-value.css variable.other.less",
+        "meta.property-list.css",
+        "meta.property-value.css",
+        "variable.other.less",
         "punctuation.section.embedded.begin.js.jsx",
         "punctuation.section.embedded.end.js.jsx",
         "meta.property-list.scss variable.scss",
         "meta.property-list.sass variable.sass",
+        "support.constant.property-value.css",
         "keyword.operator.logical",
         "keyword.operator.arithmetic",
         "keyword.operator.bitwise",
         "keyword.operator.increment",
         "keyword.operator.ternary",
+        "keyword.operator.combinator",
         "keyword.operator.comparison",
         "keyword.operator.assignment",
         "keyword.operator.operator",
@@ -1577,9 +1585,11 @@
         "keyword.operator.type",
         "punctuation.section.embedded.js",
         "punctuation.definintion.string",
-        "punctuation"
+        "punctuation",
+        "variable.argument"
       ],
       "settings": {
+        "foreground": "#FAFAFA"
         // "fontStyle": "normal"
       }
     }
