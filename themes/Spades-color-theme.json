@@ -1167,7 +1167,7 @@
       "name": "JSON Property values (string)",
       "scope": "meta.structure.dictionary.value.json string.quoted.double",
       "settings": {
-        "foreground": "#80CBC4"
+        "foreground": "#FAFAFA"
         // "fontStyle": "normal"
       }
     },
