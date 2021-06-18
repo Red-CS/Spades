@@ -281,7 +281,7 @@
       "name": "User-defined constant",
       "scope": ["constant.character", "constant.other"],
       "settings": {
-        "foreground": "#82AAFF"
+        "foreground": "#FAFAFA"
       }
     },
     {
@@ -359,7 +359,7 @@
       "name": "Function Parameters",
       "scope": "variable.parameter",
       "settings": {
-        "foreground": "#7986E7"
+        "foreground": "#A4A4A4"
       }
     },
     {
@@ -1061,7 +1061,7 @@
       "name": "Other Variables in Code Documentations",
       "scope": ["variable.other.jsdoc", "variable.other.phpdoc"],
       "settings": {
-        "foreground": "#78ccf0"
+        "foreground": "#A4A4A4"
       }
     },
     {
