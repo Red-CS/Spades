@@ -1,21 +1,21 @@
 {
-    "name": "Spades",
-    "displayName": "Spades",
-    "description": "An Asexual-styled VSCode Color Theme",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.55.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Spades",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Spades-color-theme.json"
-            }
-        ]
-    }
+  "name": "spades",
+  "displayName": "Spades",
+  "description": "An Asexual-styled VSCode Color Theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.55.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Spades",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Spades-color-theme.json"
+      }
+    ]
+  }
 }
