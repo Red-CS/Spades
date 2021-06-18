@@ -365,7 +365,7 @@
       "name": "Meta Tag",
       "scope": ["punctuation.definition.tag", "meta.tag"],
       "settings": {
-        "foreground": "#89DDFF"
+        "foreground": "#FAFAFA"
       }
     },
     {
@@ -383,21 +383,21 @@
         "meta.tag.html"
       ],
       "settings": {
-        "foreground": "#ff5572"
+        "foreground": "#E389FF"
       }
     },
     {
       "name": "Tag attribute",
       "scope": "entity.other.attribute-name",
       "settings": {
-        "foreground": "#ffcb6b"
+        "foreground": "#FAFAFA"
       }
     },
     {
       "name": "Entity Name Tag Custom",
       "scope": "entity.name.tag.custom",
       "settings": {
-        "foreground": "#ffcb6b"
+        "foreground": "#FAFAFA"
       }
     },
     {
@@ -634,7 +634,7 @@
       "name": "Variable Property Other",
       "scope": ["variable.other.property", "variable.other.object.property"],
       "settings": {
-        "foreground": "#89DDFF"
+        "foreground": "#e389ff"
       }
     },
     {
@@ -733,7 +733,7 @@
       "name": "Punctuation Section Embedded",
       "scope": "punctuation.section.embedded",
       "settings": {
-        "foreground": "#d3423e"
+        "foreground": "#9297a0"
       }
     },
     {
@@ -995,7 +995,7 @@
       "name": "HTML Punctuation Definition Tag",
       "scope": "punctuation.definition.tag.html",
       "settings": {
-        "foreground": "#89DDFF"
+        "foreground": "#FAFAFA"
       }
     },
     {
