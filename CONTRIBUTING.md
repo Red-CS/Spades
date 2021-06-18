@@ -13,17 +13,17 @@ All types of contributions are encouraged and valued. See the [Table of Contents
 
 ## Table of Contents
 
-- Adding a Language
-- Suggesting Enhancements
-- Improving the Documentation
-- Reporting Bugs
+- [Adding a Language](#adding-a-language)
+- [Suggesting Enhancements](#suggesting-enhancements)
+- [Improving the Documentation](#improving-the-documentation)
+- [Reporting Bugs](#reporting-bugs)
 
 ### Adding a Language
 
 If there's a programming or markup language that you want to be supported, you can either:
 
 1. [Leave an Issue](#leaving-an-issue)
-2. [Code it yourself!]()
+2. [Code it yourself!](#adding-language-support)
 
 #### Leaving an Issue
 
@@ -58,7 +58,9 @@ Once you're finished with that, follow the cleanup instructions:
    > If you add more than one language, separate them with commas.
 2. Update the [Supported Languages](README.md/#supported-languages) and [Languages To Be Implemented](README.md/#languages-to-be-implemented) sections of the README accordingly.
 3. Add any new colors/shades introduced to the [Colors](README.md/#colors) section.
-4. Submit a Pull Request! I'll be happy to view your changes, and so long as everything looks good and the above directions were followed, your PR should be accepted!
+4. Bump the Theme version up by one minor patch in the [`package.json`](package.json)
+   > For example, if the current version is `1.3.4`, update it to `1.4.0`
+5. Submit a Pull Request! I'll be happy to view your changes, and so long as everything looks good and the above directions were followed, your PR should be accepted!
 
 ### Suggesting Enhancements
 
