@@ -255,7 +255,7 @@
       "name": "Number",
       "scope": ["constant.numeric", "constant.character.numeric"],
       "settings": {
-        "foreground": "#F78C6C"
+        "foreground": "#fafafa"
       }
     },
     {
@@ -483,7 +483,7 @@
       "name": "Null",
       "scope": "constant.language.null",
       "settings": {
-        "foreground": "#ff5874"
+        "foreground": "#B1B1B1"
       }
     },
     {
@@ -511,7 +511,7 @@
       "name": "Boolean",
       "scope": "constant.language.boolean",
       "settings": {
-        "foreground": "#ff5874"
+        "foreground": "#b1b1b1"
       }
     },
     {
@@ -602,6 +602,13 @@
       "scope": "punctuation.definition.parameters",
       "settings": {
         "foreground": "#d9f5dd"
+      }
+    },
+    {
+      "name": "Keyword Control",
+      "scope": "keyword.control",
+      "settings": {
+        "fontStyle": "italic"
       }
     },
     {
@@ -1160,7 +1167,7 @@
       "name": "Specific JSON Property values like null",
       "scope": "meta.structure.dictionary.json meta.structure.dictionary.value constant.language",
       "settings": {
-        "foreground": "#ff5874"
+        "foreground": "#b1b1b1"
       }
     },
     {
