@@ -309,7 +309,7 @@
       "name": "Variable",
       "scope": "variable",
       "settings": {
-        "foreground": "#ffcb6b"
+        "foreground": "#A4A4A4"
       }
     },
     {
@@ -338,7 +338,7 @@
       "name": "Class name",
       "scope": ["entity.name.class", "meta.class entity.name.type.class"],
       "settings": {
-        "foreground": "#ffcb6b"
+        "foreground": "#A4A4A4"
       }
     },
     {
@@ -419,7 +419,7 @@
       "name": "Library class/type",
       "scope": ["support.type", "support.class"],
       "settings": {
-        "foreground": "#ffcb6b"
+        "foreground": "#A4A4A4"
       }
     },
     {
