@@ -1,7 +1,7 @@
 {
-  "name": "Palenight Theme",
-  "author": "Olaolu Olawuyi",
-  "maintainers": ["Olaolu Olawuyi <mrolaolu@gmail.com>"],
+  "name": "Spades",
+  "author": "Red Williams",
+  "maintainers": ["Red Williams <red.devcs@gmail.com>"],
   "type": "dark",
   "semanticClass": "palenight",
   "colors": {
@@ -249,7 +249,7 @@
       "name": "Support Constant Math",
       "scope": "support.constant.math",
       "settings": {
-        "foreground": "#ffcb6b"
+        "foreground": "#FAFAFA"
       }
     },
     {
@@ -449,7 +449,15 @@
       "name": "Keyword Operator",
       "scope": "keyword.operator",
       "settings": {
-        "foreground": "#89DDFF"
+        "foreground": "#A4A4A4"
+      }
+    },
+    {
+      "name": "Keyword Operator New Keyword",
+      "scope": "keyword.operator.new",
+      "settings": {
+        "foreground": "#A4A4A4",
+        "fontStyle": "italic"
       }
     },
     {
@@ -650,7 +658,6 @@
       "name": "Entity Name Function",
       "scope": "entity.name.function",
       "settings": {
-        // ANCHOR Just changed from #89DDFF
         "foreground": "#dbcde7"
       }
     },
@@ -662,14 +669,18 @@
       }
     },
     {
-      "name": "Support Constant, `new` keyword, Special Method Keyword",
-      "scope": [
-        "support.constant",
-        "keyword.other.special-method",
-        "keyword.other.new"
-      ],
+      "name": "new` keyword, Special Method Keyword",
+      "scope": ["keyword.other.special-method", "keyword.other.new"],
       "settings": {
-        "foreground": "#89DDFF"
+        "foreground": "#A4A4A4",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Support Constant",
+      "scope": "support.constant",
+      "settings": {
+        "foreground": "#FAFAFA"
       }
     },
     {
@@ -707,7 +718,7 @@
       "name": "Language Variable",
       "scope": "variable.language",
       "settings": {
-        "foreground": "#ff5572"
+        "foreground": "#b662ee"
       }
     },
     {
@@ -1475,14 +1486,14 @@
       "name": "TypeScript[React] Entity Name Types",
       "scope": ["entity.name.type.ts", "entity.name.type.tsx"],
       "settings": {
-        "foreground": "#78ccf0"
+        "foreground": "#A4A4A4"
       }
     },
     {
       "name": "TypeScript[React] Node Classes",
       "scope": ["support.class.node.ts", "support.class.node.tsx"],
       "settings": {
-        "foreground": "#82AAFF"
+        "foreground": "#A4A4A4"
       }
     },
     {

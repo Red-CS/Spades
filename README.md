@@ -6,10 +6,10 @@ _Spades_ is an Asexual-Styled VSCode theme developed and brought to you by an As
 
 ## Supported Languages
 
-- Javascript
-- Typescript
+- Javascript (.js, .jsx)
+- Typescript (.ts, .tsx)
 - HTML
-- CSS / SCSS / SASS
+- CSS
 - JSON
 
 ### Languages to be Implemented
@@ -19,6 +19,8 @@ _Spades_ is an Asexual-Styled VSCode theme developed and brought to you by an As
 - C
 - C++
 - C#
+- SCSS
+- SASS
 
 ## Developer Instructions
 
