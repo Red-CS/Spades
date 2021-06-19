@@ -64,7 +64,8 @@
   color: rgb(162, 170, 188);
   font-size: 14px;
   border-radius: 3px;
-  padding: 4px 6px;
+  padding: 6px 6px;
+  margin-bottom: 2px;
   transition: all 0.25s ease-in-out 0s;
   text-align: center;
 }
@@ -86,11 +87,7 @@
     box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.2);
   }
   .palette {
-    display: grid;
-    grid-template-columns: repeat(5, 35px);
-    gap: 30px;
-    -webkit-box-pack: center;
-    justify-content: center;
+    grid-template-columns: repeat(4, 35px);
   }
 }
 .footer {
