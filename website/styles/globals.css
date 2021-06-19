@@ -79,6 +79,7 @@ select {
   background-color: var(--bg);
   color: var(--header);
   font-family: "Source Code Pro", monospace;
+  text-align: center;
 }
 
 h1 {
