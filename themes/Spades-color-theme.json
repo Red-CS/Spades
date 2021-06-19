@@ -439,6 +439,16 @@
       }
     },
     {
+      "name": "CSS Values",
+      "scope": [
+        "support.constant.property-value.css",
+        "constant.other.color.rgb-value.hex.css"
+      ],
+      "settings": {
+        "foreground": "#FAFAFA"
+      }
+    },
+    {
       "name": "Sub-methods",
       "scope": ["entity.name.module.js", "variable.import.parameter.js"],
       "settings": {
