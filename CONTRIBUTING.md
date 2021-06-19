@@ -48,7 +48,7 @@ First check that the language isn't already implemented. See the [already suppor
 4. **Apply changes**
    Changes to the theme file are automatically applied to the Extension Development Host window. Test out what you have, and try to use the same preexisting theme colors. You can check out what colors are mainly used in the [Colors](README.md#colors) section.
 5. **Add an example file**
-   The [Language References] folder contains a host of different example files. This allows other people to get a general feel of what the theme looks like for other languages. Please add an example program that is well developed.
+   The [Language References] folder contains a host of different example files. This allows other people to get a general feel of what the theme looks like for other languages. Please add an example program that is well developed. [This](https://github.com/TheRenegadeCoder/sample-programs/tree/main/archive) repository is great for getting programs of various programming languages.
    > Each file should contain imports, Strings, keywords, etc to get a good feel
 
 Once you're finished with that, follow the cleanup instructions:
