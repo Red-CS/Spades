@@ -12,12 +12,22 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1>Spades</h1>
-        <h2>An Asexual-Styled VSCode Theme</h2>
-        <Image src="/img/css.png" width={417} height={444} />
+        <h1 className={styles.h1}>Spades</h1>
+        <h2 className={styles.h2}>
+          A minimal, Asexual-styled VSCode Theme inspired by the Microsoft
+          Palenight Theme
+        </h2>
+        <div className={styles.editor}>
+          <Image
+            src="/img/example.png"
+            width={960}
+            height={490}
+            quality={100}
+          />
+        </div>
+        <h2>Color Palette</h2>
+        <div className={styles.palette}></div>
       </main>
-
-      <footer className={styles.footer}></footer>
     </div>
   );
 }

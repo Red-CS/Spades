@@ -1,3 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap");
+
+:root {
+  --bg: #3b3e50;
+  --header: #eaff8b;
+  --text: #616268;
+  --fs-l: 70px;
+  --fs-m: 18px;
+  --fs-s: 12px;
+}
+
 /* Box sizing rules */
 *,
 *::before,
@@ -37,10 +48,10 @@ html:focus-within {
 }
 
 /* Set core body defaults */
-body {
+/* body {
   min-height: 100vh;
   line-height: 1.5;
-}
+} */
 
 /* Make images easier to work with */
 img,
@@ -62,4 +73,20 @@ select {
   html:focus-within {
     scroll-behavior: auto;
   }
+}
+
+* {
+  background-color: var(--bg);
+  color: var(--header);
+  font-family: "Source Code Pro", monospace;
+}
+
+h1 {
+  font-size: var(--fs-l);
+  margin: 30px 0px;
+  /* padding: 30px 0px; */
+}
+
+h2 {
+  font-size: var(--fs-m);
 }

@@ -288,6 +288,13 @@
       }
     },
     {
+      "name": "Operator, Misc (Gray)",
+      "scope": "keyword.operator.assignment",
+      "settings": {
+        "foreground": "#BFC7D5"
+      }
+    },
+    {
       "name": "Attribute Equal Signs, handlebars operators",
       "scope": [
         "punctuation.separator.key-value.html",
@@ -299,7 +306,6 @@
         "meta.property-value",
         "support.constant.mathematical-symbols",
         "support.constant.vendored.property-value",
-        "punctuation.definition.keyword",
         "punctuation.accessor",
         "punctuation.separator.property",
         "string.unquoted.filter-pipe"
@@ -356,7 +362,7 @@
       }
     },
     {
-      "name": "Function Argument, Tag Attribute, Embedded, Things that should be grey",
+      "name": "Function Argument, Tag Attribute, Embedded",
       "scope": [
         "variable.parameter",
         "text.html",
@@ -418,7 +424,7 @@
         "variable.other.readwrite"
       ],
       "settings": {
-        "foreground": "#A4A4A4"
+        "foreground": "#FAFAFA"
       }
     },
     {
@@ -432,7 +438,8 @@
         "source.postcss support.type.property-name",
         "support.type.property-name",
         "support.variable.object.node",
-        "support.variable.object.process"
+        "support.variable.object.process",
+        "variable.css"
       ],
       "settings": {
         "foreground": "#A4A4A4"
@@ -446,6 +453,24 @@
       ],
       "settings": {
         "foreground": "#FAFAFA"
+      }
+    },
+    {
+      "name": "CSS Hashtag # Punctuation",
+      "scope": ["punctuation.definition.constant.css"],
+      "settings": {
+        "foreground": "#BFC7D5"
+      }
+    },
+    {
+      "name": "Keyword Operators",
+      "scope": [
+        "keyword.operator.arithmetic",
+        "keyword.operator.comparison",
+        "keyword.operator.increment-decrement"
+      ],
+      "settings": {
+        "foreground": "#BFC7D5"
       }
     },
     {
@@ -500,10 +525,7 @@
     },
     {
       "name": "CSS Classes",
-      "scope": [
-        "entity.other.attribute-name.class",
-        "punctuation.definition.entity.css"
-      ],
+      "scope": ["entity.other.attribute-name.class"],
       "settings": {
         "foreground": "#C792EA"
       }
@@ -513,6 +535,16 @@
       "scope": ["source.sass keyword.control"],
       "settings": {
         "foreground": "#A4A4A4"
+      }
+    },
+    {
+      "name": "CSS Punctuation Decorators",
+      "scope": [
+        "punctuation.definition.entity.css",
+        "punctuation.definition.keyword.css"
+      ],
+      "settings": {
+        "foreground": "#FAFAFA"
       }
     },
     {
