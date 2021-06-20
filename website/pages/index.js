@@ -44,6 +44,9 @@ export default function Home() {
           })}
         </div>
       </main>
+      <footer className={styles.footer}>
+        <Image src="/favicon.svg" width={80} height={80} />
+      </footer>
     </div>
   );
 }
