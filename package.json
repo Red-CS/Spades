@@ -2,7 +2,9 @@
   "name": "spades",
   "displayName": "Spades",
   "description": "An Asexual-styled VS Code Color Theme",
+  "publisher": "redwilliams",
   "version": "1.0.0",
+  "repository": "https://github.com/Red-CS/Spades",
   "engines": {
     "vscode": "^1.55.0"
   },
