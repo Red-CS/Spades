@@ -1,7 +1,7 @@
 {
   "name": "spades",
   "displayName": "Spades",
-  "description": "An Asexual-styled VSCode Color Theme",
+  "description": "An Asexual-styled VS Code Color Theme",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.55.0"

@@ -2,3 +2,7 @@
 .vscode-test/**
 .gitignore
 vsc-extension-quickstart.md
+CONTRIBUTING.md
+CHANGELOG.md
+.website/**
+Language References/**
