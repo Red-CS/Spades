@@ -3,5 +3,5 @@
 .gitignore
 vsc-extension-quickstart.md
 CHANGELOG.md
-.website/**
+website/**
 Language References/**
