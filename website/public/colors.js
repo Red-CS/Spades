@@ -1,3 +1,4 @@
+// These are consistent with the 1st/Main theme
 const ThemeColors = {
   palette: [
     "#000000",
@@ -31,7 +32,7 @@ const ThemeColors = {
     "#A68DEC",
     "#7E57C2",
     "#694CA4",
-    "#810081",
+    "#810081"
     // Supporting Colors (Terminal, Git, etc)
     // "#EF5350",
     // "#FF5572",
@@ -52,7 +53,7 @@ const ThemeColors = {
     // "#A4A4A4",
     // "#89DDFF",
     // "#D9F5DD",
-  ],
-};
+  ]
+}
 
-export default ThemeColors;
+export default ThemeColors

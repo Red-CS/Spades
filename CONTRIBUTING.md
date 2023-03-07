@@ -13,10 +13,14 @@ All types of contributions are encouraged and valued. See the [Table of Contents
 
 ## Table of Contents
 
-- [Adding a Language](#adding-a-language)
-- [Suggesting Enhancements](#suggesting-enhancements)
-- [Improving the Documentation](#improving-the-documentation)
-- [Reporting Bugs](#reporting-bugs)
+- [Contributing to Spades](#contributing-to-spades)
+  - [Table of Contents](#table-of-contents)
+    - [Adding a Language](#adding-a-language)
+      - [Leaving an Issue](#leaving-an-issue)
+      - [Adding Language Support](#adding-language-support)
+    - [Suggesting Enhancements](#suggesting-enhancements)
+    - [Improving the Documentation](#improving-the-documentation)
+    - [Reporting Bugs](#reporting-bugs)
 
 ### Adding a Language
 
@@ -39,7 +43,7 @@ First check that the language isn't already implemented. See the [already suppor
 
 2. **Change into the new directory**
    ```bash
-   cd folder/path/Spades
+   cd ./Spades
    ```
 3. **Run the extension**
    1. Press `F5` to open a new window with your extension loaded.
