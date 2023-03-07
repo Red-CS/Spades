@@ -8,30 +8,41 @@ All types of contributions are encouraged and valued. See the [Table of Contents
 >
 > - Star the project
 > - Tweet about it
-> - Refer this project in your project's readme
-> - Mention the project at local meetups and tell your friends/colleagues
+> - Tell your friends!
 
 ## Table of Contents
 
 - [Contributing to Spades](#contributing-to-spades)
   - [Table of Contents](#table-of-contents)
-    - [Adding a Language](#adding-a-language)
-      - [Leaving an Issue](#leaving-an-issue)
-      - [Adding Language Support](#adding-language-support)
+    - [Creating a Variant](#creating-a-variant)
+    - [Adjusting Language Color Scheme](#adjusting-language-color-scheme)
     - [Suggesting Enhancements](#suggesting-enhancements)
     - [Improving the Documentation](#improving-the-documentation)
     - [Reporting Bugs](#reporting-bugs)
 
-### Adding a Language
+### Creating a Variant
+
+As of March 2023, I've added another variant to the _Spades_ color theme called _Spades: Benoit_, after the asexual activist [Yasmin Benoit](https://www.instagram.com/theyasminbenoit/?hl=en). Contributors (probably just myself lol) should name future variants after ace activists and notable figures.
+
+1. **Create the file** - Until a cleaner workflow is implemented, it's best to just copy one file and then change the hex values to whatever for the new theme
+2. **Update `package.json`** - As outlined in `vsc-extension-quickstart.md`, the `themes` folder holds the locations of each theme defined in `package.json` in the base directory. Under the `contributes/themes` key, add the new theme with:
+
+```json
+{
+  "label": "[Variant]",
+  "uiTheme": "vs-dark",
+  "path": "./themes/[Variant]-color-theme.json"
+}
+```
+
+3. Verify the variant is seen by the extension
+
+### Adjusting Language Color Scheme
 
 If there's a programming or markup language that you want to be supported, you can either:
 
-1. [Leave an Issue](#leaving-an-issue)
-2. [Code it yourself!](#adding-language-support)
-
-#### Leaving an Issue
-
-#### Adding Language Support
+1. Leave an Issue
+2. Code it yourself! Steps detailed below:
 
 First check that the language isn't already implemented. See the [already supported languages](README.md#supported-languages]. There, you'll also find which languages are to be supported next as well. Regardless, if you still want to add a language, then here are the steps:
 
@@ -50,7 +61,7 @@ First check that the language isn't already implemented. See the [already suppor
    2. Open `File > Preferences > Color Themes` and pick your color theme.
    3. Open a file that has a language associated. The languages' configured grammar will tokenize the text and assign 'scopes' to the tokens. To examine these scopes, invoke the `Developer: Inspect Editor Tokens and Scopes` command from the Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P` on Mac).
 4. **Apply changes**
-   Changes to the theme file are automatically applied to the Extension Development Host window. Test out what you have, and try to use the same preexisting theme colors. You can check out what colors are mainly used in the [Colors](README.md#colors) section.
+   Changes to the theme file are automatically applied to the Extension Development Host window. Test out what you have, and try to use the same preexisting theme colors.
 5. **Add an example file**
    The [Language References] folder contains a host of different example files. This allows other people to get a general feel of what the theme looks like for other languages. Please add an example program that is well developed. [This](https://github.com/TheRenegadeCoder/sample-programs/tree/main/archive) repository is great for getting programs of various programming languages.
    > Each file should contain imports, Strings, keywords, etc to get a good feel
