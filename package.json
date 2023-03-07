@@ -47,7 +47,7 @@
         "path": "./themes/Spades-color-theme.json"
       },
       {
-        "label": "Spades Benoit",
+        "label": "Spades: Benoit",
         "uiTheme": "vs-dark",
         "path": "./themes/Spades Benoit-color-theme.json"
       }
