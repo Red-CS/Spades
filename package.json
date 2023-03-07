@@ -2,12 +2,12 @@
   "name": "spades",
   "displayName": "Spades",
   "description": "An Asexual-styled VS Code Color Theme inspired by the Microsoft Palenight Theme",
-  "version": "1.1.1",
+  "version": "2.0.0",
   "publisher": "redwilliams",
   "icon": "spades.png",
   "author": {
     "name": "Red Williams",
-    "email": "red.devcs@gmail.com"
+    "email": "redpwilliams@gmail.com"
   },
   "repository": {
     "type": "git",
@@ -15,7 +15,7 @@
   },
   "bugs": {
     "url": "https://github.com/Red-CS/Spades/issues",
-    "email": "red.devcs@gmail.com"
+    "email": "redpwilliams@gmail.com"
   },
   "homepage": "https://github.com/Red-CS/Spades/blob/master/README.md/#readme",
   "galleryBanner": {
